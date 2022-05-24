@@ -16,6 +16,7 @@ def mysqlconnect():
 conn = mysqlconnect()
 cur = conn.cursor()
     
+    
 # Select query
 cur.execute("select * from stocktracker")
 records = cur.fetchall()
