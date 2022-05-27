@@ -5,11 +5,11 @@ import pymysql
 def mysqlconnect():
 # To connect MySQL database
     conn = pymysql.connect(
-        host='stock-mysqldb.cdedk051ucx3.us-east-1.rds.amazonaws.com',
+        host='********.amazonaws.com',
         port=3306,
         user='admin', 
-        password = "mysqladmin",
-        db='stockmysqldb',
+        password = "****",
+        db='******db',
         )
     return conn
 
